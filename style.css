@@ -1,6 +1,71 @@
-header{
-    background-color: rgba(236, 114, 0, 0.911);
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	color: #333;
+	margin: 0;
+	padding: 0;
 }
-section{
-    background-color: rgb(211, 210, 205);
+
+header {
+	background-color: #f89b22;
+	color: white;
+	text-align: center;
+	padding: 30px 0;
+}
+
+section {
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #e0e0e0;
+}
+
+.formulario input,
+.formulario textarea {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.formulario input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+	border: none;
+	padding: 12px;
+	transition: background-color 0.3s ease;
+}
+
+.formulario input[type="submit"]:hover {
+	background-color: #45a049;
+}
+
+input[type="checkbox"] {
+	vertical-align: middle;
+	margin-right: 8px;
+	width: auto;
+	display: inline-block;
+}
+
+label[for="termo"] {
+	display: inline-block;
+	vertical-align: middle;
 }
